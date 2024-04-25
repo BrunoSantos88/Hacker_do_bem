@@ -1,4 +1,4 @@
-# Hacker Do Bem Fundamental 96h
+# Modulo Fundamental
 
 - Ameaças, ataques e vulnerabilidades
 - Técnicas utilizadas na identificação de ameaças

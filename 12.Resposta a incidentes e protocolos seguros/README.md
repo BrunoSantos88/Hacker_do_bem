@@ -1,0 +1,16 @@
+#  Módulo 12 - Resposta a incidentes e protocolos seguros
+- Aula 1 - Processo de resposta a incidentes
+- Aula 2 - Protocolos seguros 
+- Aula 3 - Governança, compliance e gerenciamento de risco 
+- Aula 4 - Forense digita
+- Questão objetiva obrigatória 
+- Atividade Prática obrigatória 1 
+- Atividade Prática obrigatória 2 
+- Atividade Prática obrigatória 3 
+- Encontro Online 1 
+- Encontro Online 2 
+- Gravação Encontro Online 
+- Gravação Encontro Online
+- Atividade Prática
+- Questão objetiva Extra
+# Objetivo 2849pts.

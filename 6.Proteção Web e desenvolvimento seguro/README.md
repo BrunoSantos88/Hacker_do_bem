@@ -1,0 +1,16 @@
+# 6.Proteção Web e desenvolvimento seguro
+- Aula 1 -  Ataques e proteção Web - Parte 1
+- Aula 2 -  Ataques e proteção Web - Parte 2
+- Aula 3 -  Práticas de codificação segura e análise de código
+- Aula 4 -  Scripts em ambientes seguros
+- Questão objetiva obrigatória 
+- Atividade Prática obrigatória 1 
+- Atividade Prática obrigatória 2 
+- Atividade Prática obrigatória 3 
+- Encontro Online 1 
+- Encontro Online 2 
+- Gravação Encontro Online 
+- Gravação Encontro Online
+- Atividade Prática
+- Questão objetiva Extra
+# Objetivo 1733pts

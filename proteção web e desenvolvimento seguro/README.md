@@ -13,4 +13,3 @@
 - Gravação Encontro Online
 - Atividade Prática
 - Questão objetiva Extra
-# Objetivo 1733pts

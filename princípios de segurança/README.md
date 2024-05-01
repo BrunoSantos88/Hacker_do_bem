@@ -14,5 +14,3 @@
 - Gravação Encontro Online
 - Atividade Prática
 - Questão objetiva Extra
-
-# OBJETIVO 803

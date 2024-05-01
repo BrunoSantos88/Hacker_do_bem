@@ -14,3 +14,9 @@
 - Gravação Encontro Online
 - Atividade Prática
 - Questão objetiva Extra
+
+Bughunt</p>
+Link:https://blog.bughunt.com.br/triade-cia/
+
+Mitre@ttack </p>
+Link: https://attack.mitre.org/

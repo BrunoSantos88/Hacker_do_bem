@@ -1,4 +1,6 @@
-1. Aula Tríade CIA: o que é e como aplicar em cibersegurança.
+# Fundamentos da Segurança da Informação: Triade CIA, Least Privilege, Segurança em Profundidade.
+
+1.Aula Tríade CIA: o que é e como aplicar em cibersegurança.
 
 O que é Tríade Cia? </p>
 
@@ -11,7 +13,7 @@ Desta forma, a falta de medidas como estas pode tornar a empresa mais  suscetív
 Quais são os princípios da Tríade Cia e como aplicá-los?
 Os princípios da tríade CIA, quando aplicados de maneira integrada, formam uma base sólida para estratégias de segurança eficazes, que garantem a proteção abrangente de informações e sistemas de informação.  </p>
 
-2. Quais são os princípios da Tríade Cia e como aplicá-los? </p>
+2.Quais são os princípios da Tríade Cia e como aplicá-los? </p>
 
 Os princípios da tríade CIA, quando aplicados de maneira integrada, formam uma base sólida para estratégias de segurança eficazes, que garantem a proteção abrangente de informações e sistemas de informação. </p>
 
@@ -25,7 +27,7 @@ A integridade foca na manutenção da precisão e consistência das informaçõe
 Disponibilidade </p>
 A disponibilidade refere-se à capacidade de manter os recursos de informação acessíveis quando necessário. Estratégias de redundância, como a replicação de servidores e o uso de sistemas de backup, são adotadas para mitigar falhas e garantir que, mesmo diante de eventos inesperados, os serviços permaneçam disponíveis.</p>
 
-3. Por que aplicar a Tríade CIA na cibersegurança? </p>
+3.Por que aplicar a Tríade CIA na cibersegurança? </p>
 
 Como você percebeu ao longo deste artigo, aplicar a tríade CIA na cibersegurança é fundamental porque, desta forma, é possível assegurar uma estrutura sólida para proteger informações e sistemas contra ameaças digitais.  </p>
 

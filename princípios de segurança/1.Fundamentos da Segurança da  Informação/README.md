@@ -6,7 +6,7 @@ A tríade CIA é um conceito essencial para as empresas se protegerem contra o c
 
 Além disso, a tríade CIA é fundamentada por três princípios: confidentiality, integrity e availability – ou confidencialidade, integridade e disponibilidade, em português. Vale ressaltar que esses princípios são interdependentes e equilibrá-los efetivamente é essencial para a proteção das informações contra ameaças cibernéticas e a garantia de que as operações estão seguras e confiáveis  </p>
 
-- Desta forma, a falta de medidas como estas pode tornar a empresa mais  suscetível a incidentes de segurança cibernética, além de possibilitar danos operacionais e a reputação. </p>
+Desta forma, a falta de medidas como estas pode tornar a empresa mais  suscetível a incidentes de segurança cibernética, além de possibilitar danos operacionais e a reputação. </p>
 
 Quais são os princípios da Tríade Cia e como aplicá-los?
 Os princípios da tríade CIA, quando aplicados de maneira integrada, formam uma base sólida para estratégias de segurança eficazes, que garantem a proteção abrangente de informações e sistemas de informação.  </p>
@@ -23,7 +23,7 @@ Integridade
 A integridade foca na manutenção da precisão e consistência das informações ao longo do tempo. Visando garantir a integridade dos dados, são utilizadas técnicas de segurança como checksums e hash functions. Essas medidas geram valores únicos para conjuntos de dados, permitindo que qualquer alteração, acidental ou maliciosa, seja detectada.
 
 Disponibilidade </p>
-A disponibilidade refere-se à capacidade de manter os recursos de informação acessíveis quando necessário. Estratégias de redundância, como a replicação de servidores e o uso de sistemas de backup, são adotadas para mitigar falhas e garantir que, mesmo diante de eventos inesperados, os serviços permaneçam disponíveis. </p>
+A disponibilidade refere-se à capacidade de manter os recursos de informação acessíveis quando necessário. Estratégias de redundância, como a replicação de servidores e o uso de sistemas de backup, são adotadas para mitigar falhas e garantir que, mesmo diante de eventos inesperados, os serviços permaneçam disponíveis.</p>
 
 3. Por que aplicar a Tríade CIA na cibersegurança? </p>
 

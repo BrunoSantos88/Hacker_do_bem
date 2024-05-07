@@ -1,0 +1,11 @@
+# Phishing
+
+* Phishing é um método utilizado em engenharia social envolvendo o envio de mensagens fraudulentas ou a criação de sites falsos. Visa enganar as pessoas e fazê-las divulgar informações confidenciais, como senhas, informações de cartão de crédito, números de seguro social e outros dados pessoais. A palavra "phishing" é uma combinação das palavras "password" (senha) e "fishing" (pesca), sugerindo que os atacantes estão lançando uma isca para pescar informações confidenciais.
+
+- O phishing pode variar em complexidade, desde ataques simples que visam um grande número de pessoas até ataques altamente direcionados, conhecidos como "spear phishing", que focam em indivíduos específicos ou organizações. Para evitar cair em golpes de phishing, é importante que as pessoas estejam cientes das características de mensagens e sites falsos. Elas devem verificar a autenticidade das fontes, não clicar em links suspeitos ou baixar anexos desconhecidos e estar atentas a sinais de alerta, como erros de gramática ou ortografia em mensagens. Além disso, a autenticação de dois fatores (2FA) é uma medida de segurança eficaz para proteger contas online contra ataques de phishing. O processo de phishing, em geral, funciona da seguinte maneira:
+
+- Mensagem falsa: o atacante envia mensagens de e-mail, mensagens de texto ou até mesmo mensagens em redes sociais que parecem ser de fontes legítimas. Essas mensagens geralmente alertam a vítima sobre uma suposta situação urgente, como uma conta bloqueada, uma compra não autorizada, ou a necessidade de atualizar informações de login.
+
+- Isca e página falsa: a mensagem contém um link ou um botão que leva a uma página falsa que imita um site legítimo, como um banco, uma rede social, ou um serviço de e-mail. Essa página solicita que a vítima insira informações confidenciais, como nome de usuário e senha.
+
+- Roubo de informações: quando a vítima insere suas informações na página falsa, o atacante obtém acesso às credenciais da vítima. Essas informações podem ser usadas para cometer fraudes, acessar contas pessoais ou realizar atividades maliciosas em nome da vítima

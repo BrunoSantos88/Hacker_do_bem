@@ -1,1 +1,0 @@
-# LAB 1 Fundamentos Hacker_do_bem

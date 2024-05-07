@@ -33,7 +33,9 @@
 - Spam, hoaxes e coleta de credenciais
 Spam, hoaxes e coleta de credenciais representam outro tipo de tática utilizada na engenharia social. O objetivo geral é o mesmo, ou seja, enganar as pessoas para obter informações confidenciais ou realizar atividades maliciosas. Assim, para se proteger contra spam, hoaxes e tentativas de coleta de credenciais, é importante que as pessoas sejam críticas em relação às mensagens que recebem e evitem clicar em links suspeitos ou compartilhar informações pessoais sem verificar a autenticidade da fonte. A utilização de soluções de segurança de e-mail e a educação em segurança cibernética também são ferramentas eficazes para identificar e evitar esses tipos de ataques. É importante salientar que cada uma dessas técnicas tem seus próprios métodos de operação, conforme veremos a seguir:
 
-- Spam: refere-se ao envio em massa de mensagens não solicitadas, geralmente por e-mail, para um grande número de destinatários. Essas mensagens podem conter anúncios, links maliciosos, conteúdo enganoso ou até mesmo tentativas de phishing.
+# Spam
+
+* Refere-se ao envio em massa de mensagens não solicitadas, geralmente por e-mail, para um grande número de destinatários. Essas mensagens podem conter anúncios, links maliciosos, conteúdo enganoso ou até mesmo tentativas de phishing.
 
 * Funcionamento:
 
@@ -41,7 +43,9 @@ Spam, hoaxes e coleta de credenciais representam outro tipo de tática utilizada
 
 - O objetivo do spam pode variar, desde promover produtos ou serviços ilegítimos até tentar induzir os destinatários a clicarem em links maliciosos para distribuir malware ou phishing.
 
-- Hoaxes: um "hoax" (boato, em inglês) é uma mensagem falsa que circula, geralmente pela internet, com informações enganosas ou alarmantes que não são verdadeiras. Hoaxes podem se apresentar como alertas de vírus, histórias sensacionalistas ou teorias da conspiração.
+# Hoaxes:
+
+ * hoax (boato, em inglês) é uma mensagem falsa que circula, geralmente pela internet, com informações enganosas ou alarmantes que não são verdadeiras. Hoaxes podem se apresentar como alertas de vírus, histórias sensacionalistas ou teorias da conspiração.
 
 * Funcionamento:
 
@@ -51,7 +55,8 @@ Spam, hoaxes e coleta de credenciais representam outro tipo de tática utilizada
 
 - Muitas vezes, hoaxes apelam para o medo, a curiosidade ou a compaixão das pessoas para persuadi-las a agir de acordo com as instruções da mensagem.
 
-- Coleta de credenciais (credential harvesting): a coleta de credenciais envolve a tentativa de obter informações de login e senha de usuários por meio de técnicas enganosas. Isso pode ser parte de uma tentativa de phishing ou pode ser realizado em sites falsos que se passam por legítimos.
+# Coleta de credenciais 
+- credential harvesting: a coleta de credenciais envolve a tentativa de obter informações de login e senha de usuários por meio de técnicas enganosas. Isso pode ser parte de uma tentativa de phishing ou pode ser realizado em sites falsos que se passam por legítimos.
 
 * Funcionamento:
 

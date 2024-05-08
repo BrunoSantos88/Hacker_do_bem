@@ -10,7 +10,7 @@ Os black hat hackers, ou "hackers de chapéu preto", são talvez os mais notóri
  
 - Habilidades: possui habilidades avançadas na exploração de vulnerabilidades. </p>
 
-- Padrão de atuação: os black hat hackers geralmente operam na   clandestinidade, usando técnicas para ocultar sua identidade. Eles exploram vulnerabilidades em sistemas e redes para obter ganhos financeiros ou causar danos. Motivações incluem lucro, roubo de informações pessoais e empresariais, ou mesmo sabotagem. </p>
+- Padrão de atuação: os black hat hackers geralmente operam na clandestinidade, usando técnicas para ocultar sua identidade. Eles exploram vulnerabilidades em sistemas e redes para obter ganhos financeiros ou causar danos. Motivações incluem lucro, roubo de informações pessoais e empresariais, ou mesmo sabotagem. </p>
 
 
 * White hat hackers

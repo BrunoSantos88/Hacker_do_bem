@@ -1,0 +1,3 @@
+# Fontes de ameaça
+
+- As fontes de ameaça são as origens ou os pontos de onde as ameaças à segurança da informação podem surgir. Elas representam os locais, atores ou entidades que têm o potencial de causar danos, roubar informações, realizar atividades maliciosas ou comprometer a segurança de sistemas, redes e dados. Essas fontes incluem fontes internas e externas. Identificar e avaliar as ameaças internas e externas permite às organizações desenvolver estratégias de proteção mais eficazes e se preparar para possíveis incidentes de segurança.

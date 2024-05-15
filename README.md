@@ -7,3 +7,8 @@ Nessa etapa da trilha, você terá aulas online ao vivo e assíncronas, com os t
  # Avaliação Final do Curso
  - Avaliação Final (10 questões) 2 tentativas 
  - Pesquisa de Satisfação do Curso
+
+
+# Links e repositorios
+
+https://github.com/noraj/OSCP-Exam-Report-Template-Markdown

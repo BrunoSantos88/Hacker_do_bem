@@ -1,0 +1,4 @@
+# Conceitos em Projetos de Autenticação
+- A autenticação forte é a primeira linha de defesa na batalha para proteger os recursos da rede. Mas a autenticação não é um processo único. Existem diferentes métodos e mecanismos, alguns dos quais podem ser combinados para formar soluções mais eficazes. O profissional de segurança de rede deve familiarizar-se com as tecnologias de identificação e autenticação. Isto pode ajudá-lo a selecionar, implementar e oferecer suporte àquelas que são apropriadas para o seu ambiente.
+
+- Um projeto de autenticação refere-se à criação e implementação de um sistema para verificar e validar a identidade de usuários antes de conceder acesso a determinados recursos, sistemas ou informações. A meta é criar sistemas seguros e eficientes capazes de proteger contra acessos não autorizados, garantindo a integridade e confidencialidade das informações em ambientes digitais.

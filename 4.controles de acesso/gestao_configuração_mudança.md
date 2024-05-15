@@ -1,1 +1,15 @@
+# Gerenciamento de configuração
 
+- O gerenciamento de configuração é uma prática em segurança da informação que se concentra na identificação, controle e manutenção de configurações de sistemas e software em uma infraestrutura. Envolve o estabelecimento de políticas, processos e ferramentas para gerenciar mudanças nas configurações, garantindo a integridade e segurança dos ativos de informação.
+
+- Os controles de resposta e recuperação referem-se a todo o conjunto de políticas, procedimentos e recursos criados para resposta e recuperação a incidentes e desastres. Esses controles são essenciais para a segurança cibernética, mas tornam-se cada vez mais difíceis de fornecer em grande escala. A resposta e a recuperação eficazes dependem muito de quão bem organizados estão os sistemas de TI no âmbito do site. Sem políticas organizacionais eficazes para administrar o gerenciamento de mudanças e configurações, a resposta e a recuperação são muito mais difíceis. O gerenciamento de configuração garante que cada componente da infraestrutura de TIC esteja em um estado confiável que não divirja de suas propriedades documentadas. O controle e o gerenciamento de alterações reduzem o risco de que alterações nesses componentes possam causar interrupção do serviço. O ITIL (Information Technology Infrastructure Library) é um guia de boas práticas e processos para entrega de serviços de TI bastante utilizado, mundialmente falando. No ITIL, o gerenciamento de configuração é implementado usando os seguintes elementos:
+
+- Ativos de Serviço: São coisas, processos ou pessoas que contribuem para a entrega de um serviço de TI.
+
+- Item de Configuração (IC): É um ativo que requer procedimentos de gerenciamento específicos para ser usado na entrega do serviço. Cada IC deve ser identificado por algum tipo de rótulo, de preferência usando uma convenção de nomenclatura padrão. Cis são definidos por seus atributos e relacionamentos, que são armazenados em um banco de dados de gerenciamento de configuração (CMDB).
+
+- Configuração da Linha de Base: É o modelo de configurações para o qual um dispositivo, instância de VM ou outro IC foi configurado e que deve continuar a operar. Você também pode registrar linhas de base de desempenho, como o rendimento alcançado por um servidor, para comparação com os níveis monitorados.
+
+- Sistema de Gerenciamento de Configuração (CMS): São as ferramentas e o banco de dados que coletam, armazenam, gerenciam, atualizam e apresentam informações sobre ICs e seus relacionamentos. Uma pequena rede pode capturar essas informações em planilhas e diagramas; existem aplicativos dedicados para CMS corporativo.
+
+- Diagramas: São a melhor maneira de capturar os relacionamentos complexos entre os elementos da rede. Os diagramas podem ser usados para mostrar como os ICs estão envolvidos nos fluxos de trabalho de negócios, topologias de rede lógica (IP) e física e layouts de rack de rede. Lembre-se, não basta simplesmente criar o diagrama, é preciso também mantê-lo atualizado.

@@ -1,0 +1,30 @@
+# Controle de Mudança:
+
+- Um processo de controle de mudanças pode ser usado para solicitar e aprovar mudanças de forma planejada e controlada. As solicitações de mudança geralmente são geradas quando algo precisa ser corrigido, quando algo muda ou quando há espaço para melhorias em um processo ou sistema atualmente em funcionamento. A necessidade de mudança é frequentemente descrita como reativa, onde a mudança é imposta à organização, ou como proativa, quando a necessidade de mudança é iniciada internamente. As alterações também podem ser categorizadas de acordo com o seu impacto potencial e nível de risco (grande, significativo, menor ou normal, por exemplo). Em um processo formal de gerenciamento de mudanças, a necessidade ou os motivos da mudança e o procedimento para implementá-la são registrados em um documento de solicitação de mudança (RFC – Request for Change) e submetidos para aprovação.
+A RFC será então apreciada no nível apropriado e as partes interessadas afetadas serão notificadas. Pode ser o supervisor ou gerente de departamento se a mudança for normal ou pequena. Mudanças importantes ou significativas podem ser gerenciadas como um projeto separado e exigir aprovação por meio de um conselho consultivo de mudanças (CAB). Elementos Comuns de uma RFC:
+
+- Descrição da Mudança: Detalhes claros e precisos sobre a natureza da mudança proposta, incluindo o que está sendo alterado, removido, ou adicionado.
+Justificativa: Uma explicação que fundamenta a necessidade da mudança. Isso pode incluir benefícios esperados, correção de problemas existentes, atendimento a requisitos regulatórios, entre outros.
+Impacto da Mudança: Uma análise dos possíveis impactos da mudança, tanto positivos quanto negativos. Isso pode abranger áreas como operações, segurança, desempenho e custos.
+Plano de Implementação: Um plano detalhado que descreve como a mudança será implementada, incluindo cronogramas, recursos necessários, testes a serem realizados e procedimentos de reversão (rollback) caso seja necessário desfazer a mudança.
+
+- Aprovação: Um processo formal para a revisão e aprovação da RFC. Isso geralmente envolve uma equipe de gestão, um comitê de mudanças ou outras partes interessadas relevantes.
+
+- Documentação Pós-Implementação: Após a implementação da mudança, a RFC pode ser atualizada para incluir informações pós-implementação, como resultados, lições aprendidas e qualquer ajuste adicional necessário.
+
+- Gerenciamento de Mudanças: A implementação das mudanças deve ser cuidadosamente planejada levando em consideração como a mudança afetará os componentes dependentes. Para mudanças mais significativas ou importantes, as organizações devem tentar acompanhar a mudança primeiro. Cada mudança deve ser acompanhada por um plano de reversão (ou remediação), para que as mudanças possam ser agendadas com cautela, se houver probabilidade de causar tempo de inatividade do sistema, ou outro impacto negativo no fluxo de trabalho das unidades de negócios que dependem do sistema de TI que está sendo modificado. A maioria das redes possui um período de janela de manutenção programada para tempo de inatividade autorizado. Quando a mudança for implementada, o seu impacto deverá ser avaliado e o processo revisado e documentado para identificar quaisquer resultados que possam ajudar futuros projetos de gestão de mudanças.
+
+- O gerenciamento de mudanças envolve uma série de processos destinados a planejar, avaliar, aprovar, implementar e validar mudanças em um ambiente organizacional. Os processos típicos de gerenciamento de mudanças podem variar dependendo do modelo específico de gerenciamento de serviços de TI adotado, como ITIL (Information Technology Infrastructure Library). Esses processos formam uma estrutura para garantir que as mudanças ocorram de maneira controlada, minimizando riscos e impactos adversos no ambiente operacional. Sua adoção promove a resiliência e a adaptabilidade de uma organização diante das mudanças necessárias em seus sistemas e serviços de TI. Abaixo estão os processos comuns associados ao gerenciamento de mudanças:
+
+- Identificação e Registro de Mudanças: Este processo envolve a identificação proativa de mudanças necessárias no ambiente de TI. Isso pode resultar de vários inputs, como melhorias identificadas, incidentes, ou requisitos de negócios. Suas atividades principais incluem: registro inicial da mudança, atribuição de um identificador único (número de RFC - Request for Change) e documentação da descrição, justificativa e impactos iniciais.
+
+- Avaliação e Análise de Mudanças: Este processo visa avaliar as mudanças propostas quanto à sua viabilidade, impacto e riscos associados. Suas atividades principais incluem: análise de impacto, avaliação de riscos, revisão de custos e benefícios e definição de uma estratégia de implementação.
+
+- Aprovação de Mudanças: Processo no qual as mudanças propostas são submetidas a uma revisão e aprovação formal antes de serem implementadas. As principais atividades incluem: apresentação da RFC para um comitê de mudanças ou gestores, revisão e avaliação da proposta, tomada de decisão sobre a aprovação.
+
+- Planejamento de Mudanças: Este processo envolve a elaboração de um plano detalhado para implementar a mudança, considerando cronogramas, recursos necessários e procedimentos de reversão. As principais atividades são: desenvolvimento de um plano de implementação, estabelecimento de cronogramas e marcos, atribuição de responsabilidades.
+
+- Implementação de Mudanças: A mudança é implementada conforme o plano desenvolvido, com monitoramento constante para garantir uma transição suave. As atividades principais incluem: execução do plano de implementação, monitoramento em tempo real, aplicação de procedimentos de reversão, se necessário.
+
+- Avaliação Pós-Implementação: Este processo envolve a avaliação dos resultados da mudança após a implementação, incluindo revisão de desempenho, feedback do usuário e identificação de lições aprendidas. As atividades principais são: coleta de dados pós-implementação, comparação dos resultados com os objetivos, documentação de lições aprendidas.
+

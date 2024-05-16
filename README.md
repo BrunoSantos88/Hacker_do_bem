@@ -11,4 +11,5 @@ Nessa etapa da trilha, você terá aulas online ao vivo e assíncronas, com os t
 
 # Links e repositorios
 
-https://github.com/noraj/OSCP-Exam-Report-Template-Markdown
+https://github.com/noraj/OSCP-Exam-Report-Template-Markdown </p>
+https://www.ccuec.unicamp.br/cicau/download/analise_trafego.pdf </p>

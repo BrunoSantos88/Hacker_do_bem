@@ -1,0 +1,5 @@
+# Criptografia e Hashing:
+
+- Criptografia: A criptografia é uma técnica primordial para proteger dados confidenciais em trânsito e em repouso. É importante implementar criptografia de ponta a ponta em comunicações e armazenamento de dados sensíveis. Além disso, a escolha de algoritmos de criptografia seguros e o gerenciamento adequado de chaves são igualmente importantes.
+
+- Hashing: O hashing é usado para proteger a integridade dos dados. Ao criar um hash de um conjunto de dados, você pode verificar se os dados foram alterados posteriormente, comparando o novo hash com o original. Isso é útil para senhas armazenadas de forma segura. No entanto, é importante usar algoritmos de hash seguros, como SHA-256, e salgar as senhas (processo de "salting" de senhas) antes de hashá-las para evitar ataques de dicionário.

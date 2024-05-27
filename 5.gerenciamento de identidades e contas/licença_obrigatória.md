@@ -1,0 +1,7 @@
+# Licença obrigatória
+
+- A licença obrigatória significa que os funcionários são obrigados a tirar suas férias, durante as quais outra pessoa assume suas responsabilidades. A política típica de licença obrigatória requer que os funcionários tirem pelo menos uma semana de férias por ano (no Brasil é um mês), de forma a ficarem afastados do trabalho por pelo menos cinco dias consecutivos. Durante esse período, os funcionários responsáveis pela auditoria corporativa e segurança têm tempo para investigar e descobrir quaisquer discrepâncias na atividade dos funcionários.
+
+- A licença obrigatória é uma medida importante para garantir a integridade e segurança dos processos organizacionais. Ao forçar os funcionários a tirarem férias regulares, a empresa cria uma oportunidade para detectar possíveis fraudes, erros ou comportamentos inadequados que possam passar despercebidos durante o dia a dia do trabalho. Durante a ausência do funcionário, outras pessoas podem assumir suas responsabilidades, o que permite uma revisão independente das atividades e uma identificação mais fácil de possíveis problemas.
+
+- Além disso, a licença obrigatória também traz benefícios para os próprios funcionários. Tirar férias regulares é essencial para o bem-estar e saúde mental dos colaboradores, pois proporciona descanso, relaxamento e a oportunidade de desconectar-se do trabalho. Isso contribui para reduzir o estresse e a exaustão, aumentando a produtividade e a satisfação no trabalho quando os funcionários retornam das férias.

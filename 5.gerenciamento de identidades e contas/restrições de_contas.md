@@ -1,0 +1,7 @@
+# Restrições de contas
+
+- Políticas baseadas em localização: Essa restrição permite definir políticas de acesso com base na localização geográfica do usuário. Por exemplo, pode-se restringir o acesso a certos recursos apenas a partir de determinados locais ou permitir o acesso somente a partir de locais autorizados. Isso é particularmente útil para proteger informações confidenciais ou recursos sensíveis contra acesso não autorizado de locais fora das áreas permitidas.
+
+- Geofencing: O geofencing é uma tecnologia que permite definir limites geográficos virtuais. Com o uso de dispositivos móveis ou sistemas de geolocalização, é possível estabelecer restrições de conta com base na entrada ou saída de uma área geográfica específica. Por exemplo, pode-se restringir o acesso a determinados recursos quando o usuário estiver fora de uma área específica ou permitir o acesso somente quando estiver dentro de uma localização pré-definida.
+
+- Restrições baseadas em horário: Essa restrição envolve definir políticas de acesso que limitam o uso de contas de usuário em horários específicos. Por exemplo, pode-se restringir o acesso a determinados recursos fora do horário comercial ou permitir o acesso apenas durante determinados intervalos de tempo. Essa medida ajuda a controlar e restringir o acesso a informações ou recursos críticos em momentos não autorizados, reduzindo o risco de violações de segurança.

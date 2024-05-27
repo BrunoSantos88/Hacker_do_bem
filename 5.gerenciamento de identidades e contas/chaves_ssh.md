@@ -1,0 +1,7 @@
+# Chaves do SSH*
+
+- Secure Shell (SSH) Keys, ou Chaves do Protocolo Secure Shell, são um método de autenticação e criptografia utilizado para estabelecer conexões seguras em sistemas de rede. O SSH é um protocolo amplamente utilizado para acessar servidores remotos de forma segura, permitindo a execução de comandos, transferência de arquivos e gerenciamento remoto de sistemas.
+
+- As chaves do SSH consistem em pares de chaves criptográficas: uma chave privada e uma chave pública. A chave privada é mantida em segredo pelo usuário e serve para descriptografar as informações criptografadas. A chave pública, por sua vez, é compartilhada com os servidores remotos que se deseja acessar. Quando um usuário tenta se conectar a um servidor remoto, o cliente SSH utiliza a chave privada correspondente à chave pública armazenada no servidor para autenticar e estabelecer uma conexão segura.
+
+- A principal vantagem das chaves do SSH em relação às senhas convencionais é a segurança aprimorada. As chaves são criptografadas e mais difíceis de serem comprometidas por ataques de força bruta. Além disso, as chaves do SSH eliminam a necessidade de inserir senhas manualmente, o que torna o processo de autenticação mais conveniente e menos suscetível a ataques de phishing.

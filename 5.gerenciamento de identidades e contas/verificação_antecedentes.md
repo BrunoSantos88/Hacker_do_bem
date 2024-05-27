@@ -1,0 +1,3 @@
+# Verificação de antecedentes
+
+A verificação de antecedentes consiste em avaliar se uma pessoa é realmente quem ela diz ser e se ela não está ocultando atividades criminais, falência ou conexões que a tornem inadequada ou arriscada. Funcionários que trabalham em ambientes de alta confidencialidade ou com acesso a transações de alto valor obviamente precisarão passar por um grau maior de escrutínio. Para algumas ocupações, especialmente cargos federais que exigem uma autorização de segurança, as verificações de antecedentes são obrigatórias. Algumas verificações de antecedentes são realizadas internamente, enquanto outras são realizadas por terceiros externos.

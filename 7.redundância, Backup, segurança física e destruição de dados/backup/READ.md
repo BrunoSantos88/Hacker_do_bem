@@ -1,0 +1,3 @@
+Introdução
+
+O backup é um conceito essencial no mundo da tecnologia e da segurança da informação. Trata-se de um processo de criação de cópias de dados importantes e críticos, com o objetivo de preservar sua integridade e disponibilidade em caso de perda, corrupção ou exclusão acidental. O backup é uma prática fundamental para proteger informações valiosas e garantir a continuidade dos negócios, evitando perdas catastróficas e minimizando os impactos de incidentes ou falhas.

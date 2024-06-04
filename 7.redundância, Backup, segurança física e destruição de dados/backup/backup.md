@@ -88,4 +88,22 @@
 
 # Backup de imagem 
 
+* Também conhecido como imagem do sistema ou imagem de disco, é um tipo de backup que cria uma cópia exata de um disco rígido ou de uma partição inteira do sistema, incluindo o sistema operacional, aplicativos, configurações e todos os dados armazenados. Em vez de copiar arquivos individuais, ele captura o estado completo do sistema em um determinado momento, criando um arquivo de imagem que pode ser usado para restaurar o sistema em sua totalidade.
 
+* Ao realizar um backup de imagem, todos os setores do disco são copiados, independentemente de estarem em uso ou se contêm arquivos do sistema ou dados do usuário. Essa abordagem garante que todos os detalhes e estruturas do sistema sejam preservados, permitindo uma recuperação completa e rápida em caso de falha do sistema, perda de dados ou necessidade de restauração. O processo de criação de um backup de imagem geralmente envolve os seguintes passos:
+
+* Seleção do software de backup: É necessário escolher um software de backup confiável e compatível que suporte a criação de backups de imagem. Existem várias opções disponíveis no mercado, como Acronis True Image, Clonezilla, Norton Ghost e Windows Backup.
+
+1. Configuração das opções de backup: O software de backup permitirá que você escolha quais discos ou partições deseja incluir no backup de imagem. Você pode selecionar o disco rígido inteiro ou apenas partições específicas, dependendo das suas necessidades.
+
+2. Definição do local de armazenamento: Você precisa escolher onde o backup de imagem será armazenado. Isso pode ser um disco rígido externo, uma unidade de rede, um servidor remoto ou até mesmo serviços em nuvem. É importante escolher um local de armazenamento confiável e seguro.
+
+3. Início do processo de backup: Uma vez configuradas as opções, inicia-se o processo de criação do backup de imagem. O software fará uma cópia setor a setor do disco ou partição selecionados, criando um arquivo de imagem compactado.
+
+4. Verificação do backup: Após a conclusão do backup de imagem, é recomendável verificar se o arquivo de imagem foi criado corretamente e se está em boas condições. Muitos softwares de backup possuem recursos de verificação automática para garantir a integridade do backup.
+
+5. Armazenamento seguro: É essencial armazenar o backup de imagem em um local seguro e fora do sistema original. Isso protege contra perda de dados causada por falhas físicas, como falha do disco rígido, roubo ou desastres naturais.
+
+6. Restauração do sistema: Em caso de falha do sistema, perda de dados ou necessidade de restauração, o backup de imagem pode ser usado para restaurar o sistema para o estado exato em que estava no momento da criação do backup. O processo de restauração geralmente envolve selecionar o backup de imagem desejado e seguir as instruções do software de backup para restaurar o sistema.
+
+# Backup em nuvem

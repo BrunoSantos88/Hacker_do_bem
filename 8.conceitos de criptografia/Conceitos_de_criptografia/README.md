@@ -1,0 +1,3 @@
+ # Criptografia
+
+* Criptografia é a prática de transformar informações legíveis em um formato ilegível, chamado de texto cifrado, com o objetivo de proteger a confidencialidade, integridade e autenticidade dessas informações. Ela envolve o uso de algoritmos matemáticos e chaves criptográficas para realizar a transformação dos dados. A criptografia é amplamente utilizada para proteger dados sensíveis durante a transmissão pela internet, armazenamento em dispositivos e comunicação entre sistemas. Apenas aqueles que possuem a chave correta podem decifrar o texto cifrado e obter acesso às informações originais. A criptografia desempenha um papel fundamental na segurança da informação e é uma das principais técnicas para garantir a privacidade e segurança dos dados.

@@ -1,0 +1,9 @@
+# Técnicas de ocultação de dados
+
+* As técnicas de ocultação de dados são métodos utilizados para esconder informações sensíveis em outros tipos de arquivos ou meios de comunicação, de modo que essas informações não sejam facilmente detectadas por terceiros. O objetivo principal dessas técnicas é garantir a confidencialidade e a integridade dos dados, tornando-os menos suscetíveis a interceptação ou descoberta por indivíduos não autorizados.
+
+* Diferentemente da criptografia, que se concentra na transformação dos dados em um formato ilegível por meio do uso de algoritmos matemáticos, as técnicas de ocultação de dados buscam camuflar as informações sensíveis dentro de arquivos ou estruturas aparentemente comuns. Isso pode incluir a inserção de dados em áreas não utilizadas de um arquivo, modificação de bits específicos em arquivos de imagem ou áudio, ou até mesmo a utilização de esteganografia, que é a prática de esconder dados dentro de outros tipos de arquivos sem que isso seja perceptível.
+
+* Embora a criptografia e as técnicas de ocultação de dados compartilhem o objetivo comum de proteger informações sensíveis, elas são abordagens distintas. Enquanto a criptografia se concentra em transformar os dados em um formato ilegível para terceiros, as técnicas de ocultação de dados procuram tornar as informações menos detectáveis ou disfarçadas dentro de outros arquivos ou meios de comunicação.
+
+* É importante ressaltar que, embora as técnicas de ocultação de dados possam fornecer uma camada adicional de segurança, elas não substituem a criptografia em si. Ambas as abordagens podem ser usadas em conjunto para fornecer uma proteção mais robusta aos dados sensíveis, garantindo não apenas a confidencialidade, mas também a integridade e autenticidade das informações.

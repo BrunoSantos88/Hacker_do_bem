@@ -1,0 +1,25 @@
+# Cifra de blocos
+
+* Uma cifra de blocos é um tipo de algoritmo de criptografia simétrica que opera em blocos fixos de dados. Ao contrário das cifras de fluxo, que criptografam os dados em um fluxo contínuo, as cifras de blocos dividem o texto claro em blocos de tamanho fixo e criptografam cada bloco independentemente.
+
+* Em uma cifra de blocos, cada bloco de dados é processado individualmente usando a chave simétrica e o algoritmo de criptografia. O tamanho do bloco pode variar dependendo do algoritmo específico, mas geralmente é de 64 bits (8 bytes) ou 128 bits (16 bytes). Os blocos são criptografados em uma ordem sequencial. Os modos de funcionamento das cifras de bloco são:
+
+1. Electronic Codebook (ECB): No modo ECB, cada bloco de dados é criptografado de forma independente, usando a mesma chave. Isso significa que blocos idênticos no texto claro produzirão blocos cifrados idênticos. Isso pode resultar em vulnerabilidades, pois um adversário pode identificar padrões no texto cifrado e realizar substituições ou reordenamentos. O ECB é geralmente considerado inseguro para criptografia de longos volumes de dados ou dados com padrões repetitivos.
+
+2. Cipher Block Chaining (CBC): No modo CBC, cada bloco de dados é criptografado combinando-o com o bloco cifrado anterior antes de ser processado. Isso introduz uma dependência entre os blocos e torna o texto cifrado dependente de todos os blocos anteriores. Além disso, um vetor de inicialização (IV) é usado para iniciar o processo de encadeamento. O CBC fornece confidencialidade e integridade, pois qualquer alteração em um bloco afeta todos os blocos subsequentes. No entanto, não é paralelizável, pois cada bloco depende do bloco anterior.
+
+3. Cipher Feedback (CFB): No modo CFB, os blocos de dados são tratados como um fluxo de bits, em vez de blocos independentes. É utilizado um tamanho de deslocamento menor que o tamanho do bloco para criar um fluxo de bits. O fluxo de bits é então combinado com o texto claro por meio de uma operação XOR, e o resultado é o texto cifrado. O CFB é adequado para criptografia síncrona, onde os blocos de texto claro são criptografados um a um. Ele permite o uso de cifras de bloco como cifras de fluxo.
+
+3. Output Feedback (OFB): No modo OFB, o bloco cifrado anterior é usado para gerar uma sequência de bits pseudoaleatória, que é combinada com o texto claro por meio de uma operação XOR para produzir o texto cifrado. O OFB transforma uma cifra de bloco em uma cifra de fluxo, permitindo a criptografia de fluxos contínuos de dados. Também é adequado para transmissões assíncronas, pois não requer blocos sequenciais.
+
+4. Counter Mode (CTR): No modo CTR, um contador é usado para gerar uma sequência de valores (normalmente chamados de nonce) que são combinados com a chave para gerar um fluxo de chave pseudoaleatório. Esse fluxo de chave é, então, combinado com o texto claro por meio de uma operação XOR para produzir o texto cifrado. Cada bloco de dados é criptografado independentemente, tornando o modo CTR altamente paralelizável.
+
+* É importante destacar que alguns modos de operação apresentam propriedades de segurança adicionais em relação a outros. Por exemplo, o modo ECB é considerado menos seguro devido à sua falta de confidencialidade quando blocos idênticos são repetidos no texto claro. O modo CBC, CFB, OFB e CTR são projetados para mitigar essa vulnerabilidade, tornando-os mais seguros em certos aspectos.
+
+* O modo CBC (Cipher Block Chaining) oferece confidencialidade e integridade devido à dependência entre os blocos. Ele é amplamente utilizado e oferece uma boa segurança quando implementado corretamente. No entanto, ele não é paralelizável, o que pode ser uma desvantagem em algumas aplicações.
+
+* O modo CTR (Counter) é altamente paralelizável, o que o torna eficiente em termos computacionais e adequado para criptografia em tempo real. Ele também evita a repetição de blocos, desde que o contador seja usado corretamente. O CTR é amplamente adotado e considerado seguro quando implementado adequadamente.
+
+* Escalabilidade: À medida que o número de participantes aumenta, a distribuição segura de chaves se torna cada vez mais desafiadora. Aumentar a quantidade de chaves compartilhadas pode aumentar a complexidade e os custos operacionais. A distribuição eficiente de chaves em redes maiores é um problema complexo que requer soluções escaláveis e seguras.
+
+* Para mitigar esses problemas, são empregadas várias técnicas e protocolos, como a criptografia de chave pública (assimétrica) para estabelecer chaves compartilhadas de forma segura ou o uso de protocolos de troca de chaves como o Diffie-Hellman. Além disso, o uso de algoritmos de gerenciamento de chaves, como sistemas de gerenciamento de chaves (Key Management Systems - KMS) e infraestruturas de chave pública (Public Key Infrastructures - PKIs), pode facilitar a distribuição, armazenamento e atualização das chaves.

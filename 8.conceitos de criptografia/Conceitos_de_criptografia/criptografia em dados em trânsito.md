@@ -1,0 +1,11 @@
+# Criptografia em dados em trânsito
+
+* A criptografia em dados em trânsito refere-se à aplicação de técnicas criptográficas para proteger informações enquanto são transferidas ou transmitidas através de redes de comunicação. O objetivo é garantir que os dados não sejam interceptados ou alterados por pessoas não autorizadas durante a transmissão, mantendo sua confidencialidade e integridade.
+
+* Quando os dados são transmitidos em redes, como a internet, eles geralmente passam por vários pontos intermediários, como roteadores, servidores e provedores de serviços. Esses pontos intermediários podem representar possíveis pontos de vulnerabilidade, onde um invasor poderia interceptar ou manipular os dados em trânsito. A criptografia em dados em trânsito atua como uma camada de proteção para mitigar essas ameaças.
+
+* Existem diferentes protocolos e algoritmos de criptografia projetados para proteger a comunicação em rede. Um exemplo comum é o protocolo HTTPS (Hypertext Transfer Protocol Secure), que utiliza o SSL/TLS (Secure Sockets Layer/Transport Layer Security) para criptografar a comunicação entre um cliente (navegador) e um servidor da web. Ao estabelecer uma conexão HTTPS, os dados são criptografados antes de serem enviados e só podem ser decifrados pelo destinatário legítimo que possui a chave de criptografia correspondente.
+
+* A criptografia em dados em trânsito utiliza algoritmos criptográficos simétricos e assimétricos para proteger a comunicação. Algoritmos simétricos, como o AES (Advanced Encryption Standard), usam uma única chave compartilhada entre o remetente e o destinatário para criptografar e descriptografar os dados. Algoritmos assimétricos, como o RSA (Rivest-Shamir-Adleman), envolvem o uso de um par de chaves, uma pública e outra privada, onde a chave pública é usada para criptografar os dados e a chave privada correspondente é usada para descriptografá-los.
+
+* A criptografia em dados em trânsito oferece proteção contra diversos tipos de ataques, como a interceptação de dados (sniffing), onde um invasor captura os dados enquanto eles são transmitidos, e a modificação de dados (tampering), onde um invasor altera os dados durante a transmissão. Ao criptografar os dados em trânsito, mesmo que um invasor consiga interceptá-los, eles estarão em um formato ilegível sem a chave correta.

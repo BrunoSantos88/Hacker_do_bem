@@ -1,0 +1,11 @@
+# Cartões de acesso
+
+* São dispositivos utilizados para controlar o acesso físico a áreas restritas de uma organização. Eles são projetados para conceder permissões de entrada a pessoas autorizadas e restringir o acesso a indivíduos não autorizados. Esses cartões geralmente são emitidos aos funcionários, contratados ou visitantes e são apresentados a leitores eletrônicos para permitir o acesso a portas, portões ou áreas específicas.
+
+* Os cartões de acesso contêm informações codificadas, como dados de identificação pessoal ou números de identificação exclusivos, que são lidos pelo leitor eletrônico. O leitor verifica a validade do cartão e, se as informações corresponderem às permissões de acesso atribuídas, ele desbloqueia a entrada para a pessoa.
+
+* Existem diferentes tipos de cartões de acesso, como cartões de proximidade, cartões inteligentes ou cartões de banda magnética. Cada tipo utiliza tecnologias específicas para armazenar e transmitir dados de identificação. Por exemplo, os cartões de proximidade contêm uma antena embutida que permite a comunicação sem fio com o leitor eletrônico quando estão próximos um do outro. Já os cartões inteligentes possuem um microchip que armazena informações criptografadas e podem executar funções avançadas, como autenticação de dois fatores.
+
+* Além disso, os cartões de acesso podem ser programados para fornecer diferentes níveis de permissões de acesso. Por exemplo, um cartão pode permitir acesso a uma área específica do prédio, enquanto outro cartão pode conceder acesso a todas as áreas. Isso permite que a organização controle de maneira granular quem pode entrar em determinados locais e restringir o acesso não autorizado. Existem várias marcas reconhecidas que fabricam cartões de acesso para controle de acesso físico:
+
+* HID Global: A HID Global é uma das principais fornecedoras de soluções de identificação segura, incluindo cartões de acesso. Eles oferecem uma ampla gama de cartões de proximidade, cartões inteligentes e outros dispositivos de identificação. A próxima figura ilustra um exemplo do cartão de acesso da HID Global.

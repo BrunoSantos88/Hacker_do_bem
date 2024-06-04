@@ -1,0 +1,7 @@
+# Melhoria da escalabilidade
+
+* A redundância também pode contribuir para a escalabilidade dos sistemas. Ao adicionar componentes ou sistemas redundantes, é possível lidar com o aumento da demanda e distribuir a carga de trabalho de forma mais eficiente. Isso permite que a infraestrutura de TI se adapte às necessidades em constante mudança, garantindo o desempenho adequado mesmo em períodos de alto volume de dados ou tráfego.
+
+* Um exemplo prático do uso de redundância para melhorar a escalabilidade pode ser observado em um ambiente de servidores web, como o da Figura "Exemplo de link redundante em uma conexão de rede". A implementação da redundância envolve a adição de servidores web adicionais para distribuir a carga de trabalho. Em vez de depender de um único servidor, a empresa implementa um balanceador de carga que distribui as solicitações dos usuários entre vários servidores web redundantes.
+
+* Quando um usuário faz uma solicitação ao website, o balanceador de carga recebe a solicitação e a encaminha para um dos servidores web disponíveis. Isso distribui a carga de trabalho de forma mais equilibrada entre os servidores, evitando a sobrecarga e melhorando o desempenho geral do sistema. Com essa configuração redundante, a empresa tem a capacidade de adicionar mais servidores web conforme necessário, conforme o tráfego aumenta. Se a demanda continuar a crescer, novos servidores podem ser facilmente adicionados ao cluster, aumentando a capacidade de atendimento do website.

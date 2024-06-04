@@ -1,0 +1,10 @@
+# Introdução
+
+* Nesta aula, vamos explorar a importância de garantir a segurança física das instalações e equipamentos de TI. Sabemos que a proteção dos ativos de uma organização não se resume apenas a medidas de segurança digital, mas também envolve a implementação de controles físicos eficazes. Vamos mergulhar no fascinante mundo da segurança física e descobrir como proteger seu ambiente de trabalho de forma abrangente. Vamos explorar os conceitos essenciais relacionados à segurança física, desde os controles de acesso até as técnicas de monitoramento e vigilância de instalações. Você aprenderá como limitar o acesso não autorizado, detectar atividades suspeitas e proteger seus recursos de TI contra ameaças externas. Este conhecimento é fundamental para qualquer profissional de TI responsável pela proteção dos ativos da organização. Prepare-se para aprofundar seu conhecimento e descobrir como garantir a integridade e confidencialidade dos recursos de TI através de medidas físicas de segurança.
+
+* Veremos como os controles de acesso físico, que envolvem a utilização de tecnologias como fechaduras, cartões de acesso e sistemas de controle eletrônico, desempenham um papel fundamental na limitação do acesso apenas a pessoas autorizadas. Além disso, examinaremos as práticas de monitoramento e vigilância de instalações, que utilizam câmeras de segurança, sensores e sistemas de alarme para detectar atividades suspeitas e garantir a segurança contínua do ambiente físico. Você aprenderá a importância de implementar essas medidas de segurança física e como elas se complementam às estratégias de segurança digital. Prepare-se para mergulhar nesse fascinante mundo da segurança física e descobrir como proteger seu ambiente de trabalho de forma abrangente.
+
+
+# Segurança Fisica?
+
+* Segurança física é o conjunto de medidas, procedimentos e tecnologias utilizados para proteger as instalações, equipamentos e recursos físicos de uma organização contra ameaças e riscos, como acesso não autorizado, furto, vandalismo, desastres naturais e outras atividades maliciosas.

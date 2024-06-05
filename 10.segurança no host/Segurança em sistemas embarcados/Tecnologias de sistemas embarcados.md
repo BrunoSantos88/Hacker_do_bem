@@ -1,0 +1,19 @@
+# Tecnologias de sistemas embarcados
+
+* Protocolos Z-Wave e Zigbee
+
+* Os protocolos Z-Wave e Zigbee são dois protocolos de comunicação sem fio amplamente utilizados em aplicações de automação residencial e Internet das Coisas (IoT). Embora tenham objetivos semelhantes de conectar dispositivos e permitir comunicação entre eles, existem diferenças em sua arquitetura e implementação.
+
+* O protocolo Z-Wave é um protocolo de rede de baixa potência (LPWAN) projetado para comunicação de curto alcance em redes domésticas inteligentes. Ele opera na faixa de frequência de rádio de 800-900 MHz e utiliza a tecnologia de malha de rede (mesh network) para permitir que os dispositivos se comuniquem entre si. Isso significa que os dispositivos Z-Wave podem atuar como repetidores, estendendo o alcance da rede. O Z-Wave é conhecido por sua confiabilidade, segurança e interoperabilidade entre diferentes dispositivos de diferentes fabricantes.
+
+* O protocolo Zigbee também é um protocolo de rede de baixa potência (LPWAN), mas opera na faixa de frequência de 2,4 GHz. Ele também utiliza a tecnologia de malha de rede, permitindo que os dispositivos se comuniquem diretamente entre si ou através de dispositivos intermediários. O Zigbee é altamente eficiente em termos de consumo de energia e suporta redes maiores, com milhares de dispositivos interconectados. Ele também oferece recursos avançados de segurança e possui perfis padronizados para garantir a interoperabilidade entre diferentes dispositivos.
+
+* Tanto o Z-Wave quanto o Zigbee são projetados para fornecer comunicação sem fio confiável e segura para sistemas de automação residencial e IoT. Eles permitem o controle e a interação de dispositivos como lâmpadas, sensores, termostatos e fechaduras inteligentes. A escolha entre os protocolos Z-Wave e Zigbee geralmente depende das preferências do fabricante, da disponibilidade de dispositivos compatíveis e dos requisitos específicos de cada aplicação.
+
+# Controller Area Network (CAN)
+
+* Controller Area Network (CAN) é um protocolo de comunicação serial usado em sistemas embarcados para permitir a comunicação confiável e robusta entre dispositivos. Foi originalmente desenvolvido para uso em aplicações automotivas, mas agora é amplamente utilizado em diversos setores, como automação industrial e equipamentos médicos. O CAN funciona por meio de um barramento de comunicação compartilhado, onde vários dispositivos podem transmitir e receber mensagens. Cada dispositivo conectado ao barramento possui um identificador único, que permite a diferenciação das mensagens transmitidas. O protocolo CAN utiliza uma abordagem de comunicação de multi-acesso, ou seja, vários dispositivos podem transmitir dados simultaneamente no barramento, usando um mecanismo de detecção de colisão para resolver possíveis conflitos.
+
+* O funcionamento do CAN envolve a troca de mensagens entre os dispositivos conectados. Um dispositivo pode enviar uma mensagem no barramento, que é recebida por todos os outros dispositivos conectados. No entanto, apenas os dispositivos com o identificador correspondente à mensagem irão processá-la, enquanto os outros dispositivos a ignoram. As mensagens do CAN são organizadas em pacotes de dados chamados frames. Cada frame contém um identificador, que indica o tipo e a prioridade da mensagem, e os dados associados à mensagem. Os dispositivos conectados podem transmitir mensagens de forma assíncrona ou síncrona, permitindo a troca de informações em tempo real.
+
+* O CAN é conhecido por sua confiabilidade, imunidade a interferências e escalabilidade. Ele suporta velocidades de transmissão variáveis, desde taxas de transmissão baixas até velocidades de vários megabits por segundo. Além disso, o protocolo CAN pode ser estendido com funcionalidades adicionais, como o CAN FD (Flexible Data-Rate), que permite taxas de transmissão ainda mais altas.

@@ -1,0 +1,5 @@
+# Hardware Root of Trust
+
+* Refere-se a um componente de hardware confiável e imutável que atua como a base segura para a inicialização e operação segura de um sistema. É responsável por estabelecer uma raiz de confiança para o sistema, garantindo que as etapas críticas de inicialização e verificação ocorram em um ambiente confiável e livre de manipulação maliciosa. Ele é projetado para resistir a ataques físicos e lógicos, garantindo a integridade do processo de inicialização.
+
+* O Hardware Root of Trust desempenha um papel crítico na segurança de sistemas, incluindo a autenticação do hardware, a verificação da integridade do firmware e do sistema operacional, a proteção de chaves criptográficas e a garantia de um ambiente confiável para a execução segura de aplicativos e processos. Ao estabelecer uma raiz de confiança confiável no hardware, o HRT ajuda a proteger o sistema contra ameaças como malware, ataques de firmware, ataques de inicialização comprometida e outras formas de manipulação maliciosa.

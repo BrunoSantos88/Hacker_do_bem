@@ -1,0 +1,5 @@
+# Introdução
+
+* Bem-vindos à nossa aula sobre segurança em sistemas embarcados! Durante esta jornada, exploraremos um conjunto abrangente de tecnologias que estão moldando o mundo conectado em que vivemos. Nesta aula, discutiremos conceitos fundamentais, como Controladores Lógicos Programáveis (PLCs), Sistemas em Chip (SoCs), como Raspberry Pi e Arduino, além de tecnologias emergentes, como a Internet das Coisas (IoT). Também abordaremos a importância dos sistemas operacionais em tempo real (RTOS) e exploraremos protocolos de comunicação, como Z-Wave e Zigbee.
+
+* Durante nosso percurso, exploraremos o papel dos Sistemas de Controle Industrial (ICS) e o uso do Supervisory Control and Data Acquisition (SCADA) para monitorar e controlar processos industriais. Além disso, investigaremos o campo da automação predial com o Building Automation System (BAS) e a medição inteligente de energia com os Smart Meters.

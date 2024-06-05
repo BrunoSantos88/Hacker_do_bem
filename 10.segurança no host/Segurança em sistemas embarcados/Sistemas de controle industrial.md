@@ -1,0 +1,5 @@
+ # Sistemas de controle industrial (ICS)
+
+* Os Sistemas de controle industrial, também conhecidos como Industrial Control Systems (ICSs), são sistemas computacionais projetados para monitorar e controlar processos e operações em ambientes industriais. Eles desempenham um papel fundamental em setores como manufatura, energia, petróleo e gás, automação predial e muitos outros, onde é necessário controle e automação de sistemas complexos.
+
+* Os ICSs são compostos por três componentes principais: dispositivos de campo, controladores e sistemas de supervisão. Os dispositivos de campo, como sensores e atuadores, coletam dados do ambiente físico e interagem com os processos industriais. Os controladores, como Controladores Lógicos Programáveis (PLCs) ou Sistemas em Chip (SoCs), executam algoritmos e lógica de controle para operar os dispositivos de campo com base nas instruções recebidas. Os sistemas de supervisão, como os sistemas SCADA (Supervisory Control and Data Acquisition), fornecem interfaces de monitoramento e controle para os operadores humanos.

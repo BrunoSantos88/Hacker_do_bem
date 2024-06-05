@@ -1,0 +1,19 @@
+# Sistema de Automação Predial (BAS)
+
+* Também conhecido como Building Automation System (BAS), é um sistema computacional que controla e gerencia diversos sistemas e dispositivos dentro de um edifício, visando melhorar a eficiência operacional, a segurança e o conforto dos ocupantes. O BAS integra sistemas como iluminação, HVAC (Heating, Ventilation and Air Conditioning - aquecimento, ventilação e ar-condicionado), controle de acesso, segurança, monitoramento de energia, entre outros.
+
+* O funcionamento de um BAS envolve a coleta de dados dos diferentes sistemas e dispositivos conectados no edifício. Sensores são utilizados para medir informações como temperatura, umidade, qualidade do ar, níveis de iluminação, presença de pessoas e consumo de energia. Esses dados são enviados ao sistema central do BAS, onde são processados e analisados.
+
+* Com base nas informações coletadas e em algoritmos de controle pré-definidos, o sistema central toma decisões e emite comandos para os dispositivos conectados. Por exemplo, se os sensores detectarem uma temperatura acima do limite desejado em uma sala, o BAS pode enviar um comando para o sistema de ar-condicionado ajustar a temperatura.
+
+* A interface do BAS é geralmente acessada por meio de um painel de controle centralizado, onde os operadores podem monitorar e controlar os sistemas e dispositivos conectados. Também é possível acessar o BAS remotamente por meio de aplicativos ou interfaces web. Os benefícios de um BAS incluem a redução de custos operacionais, o aumento da eficiência energética, a melhoria do conforto e produtividade dos ocupantes, além do monitoramento e gerenciamento centralizado das operações do edifício.
+
+# Medidores inteligentes
+
+* Smart Meters, também conhecidos como medidores inteligentes, são dispositivos utilizados para medir o consumo de energia elétrica, água ou gás em residências, edifícios comerciais e industriais. Eles são uma evolução dos medidores tradicionais, pois possuem recursos avançados de comunicação e coleta de dados. O funcionamento dos Smart Meters envolve a coleta de dados de consumo em tempo real. Eles são capazes de registrar e transmitir informações sobre o consumo de energia, água ou gás em intervalos frequentes, geralmente em intervalos de 15 minutos a uma hora. Esses dados são enviados por meio de uma rede de comunicação, como a rede elétrica, redes de comunicação sem fio ou redes de dados dedicadas.
+
+* A comunicação dos Smart Meters permite que as empresas de serviços públicos coletem dados de consumo de forma mais eficiente, eliminando a necessidade de leitura manual dos medidores. Os consumidores também podem acessar informações detalhadas sobre seu consumo em tempo real, geralmente por meio de aplicativos ou interfaces online.
+
+* Além da coleta de dados, os Smart Meters também podem oferecer recursos adicionais, como tarifação diferenciada, permitindo que os consumidores sejam cobrados com base no horário de uso da energia elétrica. Isso incentiva a adoção de práticas de consumo consciente, ajudando a reduzir a demanda de pico e otimizar o uso dos recursos.
+
+* Os Smart Meters também facilitam a detecção de falhas e o diagnóstico de problemas na rede elétrica. Por meio da comunicação bidirecional, eles podem enviar informações sobre interrupções no fornecimento de energia, permitindo uma resposta rápida das empresas de serviços públicos para solucionar problemas. Em termos de segurança, os Smart Meters possuem recursos de criptografia e autenticação para garantir a integridade e a confidencialidade dos dados transmitidos. Isso protege as informações do consumidor e evita interferências e manipulações indesejadas.

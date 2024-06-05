@@ -1,0 +1,16 @@
+# Criptografia e Segurança em Blockchain
+
+* A criptografia assimétrica é um dos componentes essenciais da tecnologia Blockchain. Ela desempenha um papel fundamental na segurança e na autenticação das transações na rede:
+
+* Chave Privada: A chave privada é um número aleatório e exclusivo gerado para cada participante da rede Blockchain. Ela é mantida em sigilo absoluto e é usada para assinar digitalmente transações. A chave privada deve ser protegida, pois qualquer pessoa que tenha acesso a ela pode assumir a identidade do proprietário e realizar transações em seu nome.
+
+* Chave Pública: A chave pública é derivada da chave privada por meio de algoritmos matemáticos específicos. Ela é compartilhada publicamente com outros participantes da rede Blockchain. A chave pública é usada para verificar a autenticidade das assinaturas digitais feitas com a chave privada correspondente.
+
+* Função Hash: Na tecnologia Blockchain, a função hash é usada para garantir a integridade e a segurança das informações. Quando uma transação é registrada em um bloco, todos os dados relevantes da transação, como remetente, destinatário, valor e outros parâmetros, são processados pela função hash. O resultado é um hash único que representa aquela transação específica. Qualquer alteração nos dados da transação resultará em um hash completamente diferente. A função hash é projetada de forma que seja computacionalmente inviável reverter o processo e obter os dados originais a partir do hash. Além disso, a função hash é determinística, o que significa que a mesma entrada sempre produzirá o mesmo hash. Na Blockchain, os hashes são usados para estabelecer a integridade dos blocos e criar uma conexão contínua entre eles. Cada bloco contém o hash do bloco anterior, formando uma cadeia de blocos. Qualquer modificação em um bloco anterior resultará em uma mudança no hash, o que invalidará toda a cadeia subsequente.
+
+* Assinaturas Digitais: Para realizar uma transação em Blockchain, o remetente utiliza sua chave privada para criar uma assinatura digital exclusiva para aquela transação específica. A assinatura digital é um valor criptográfico gerado pela aplicação de algoritmos à transação e à chave privada. Ela comprova que a transação foi realmente autorizada pelo proprietário da chave privada.
+
+* Verificação da Assinatura: Para verificar a autenticidade de uma transação, os nós da rede Blockchain utilizam a chave pública correspondente ao endereço do remetente para verificar se a assinatura digital é válida. Isso é feito aplicando os algoritmos criptográficos à transação, à assinatura digital e à chave pública. Se a assinatura digital puder ser validada com sucesso, significa que a transação foi assinada com a chave privada correspondente à chave pública fornecida.
+
+* Proteção da Privacidade: A criptografia de chave pública e privada também é usada para proteger a privacidade dos participantes na rede Blockchain. Quando um participante deseja receber uma transação, ele compartilha sua chave pública com o remetente para que a transação seja criptografada e direcionada especificamente para ele. Somente o destinatário, com a posse da chave privada correspondente, poderá descriptografar e acessar o conteúdo da transação.
+

@@ -1,0 +1,7 @@
+# Função hash.
+
+* As funções hash desempenham um papel fundamental em diversos aspectos da segurança e integridade de dados. São algoritmos poderosos e versáteis, amplamente utilizados em criptografia, verificação de integridade de arquivos, autenticação de dados e muito mais. Nesta aula, vamos explorar os conceitos e aplicações das funções hash, entendendo como elas funcionam e por que são tão importantes na proteção e validação de informações.
+
+* Durante a aula, vamos mergulhar nos fundamentos das funções hash, compreendendo seu propósito e funcionamento básico. Vamos examinar diferentes algoritmos de função hash e suas características, incluindo a distribuição uniforme de valores de hash e a resistência a colisões. Ao entender essas propriedades, poderemos avaliar a qualidade e a segurança de diferentes funções hash, escolhendo a mais adequada para cada situação.
+
+* Além de explorar a teoria por trás das funções hash, esta aula também terá um enfoque prático. Vamos aprender a aplicar funções hash em situações reais, como a verificação de integridade de arquivos ou a autenticação de dados. Veremos como calcular o hash de um arquivo e compará-lo com um valor de referência para verificar se houve qualquer modificação. Com isso, estaremos preparados para utilizar as funções hash de maneira efetiva em diferentes contextos, fortalecendo a segurança e a confiabilidade dos dados.

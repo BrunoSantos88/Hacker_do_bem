@@ -1,0 +1,5 @@
+# Introdução
+
+* A aula de criptografia assimétrica é fundamental para compreender os princípios e técnicas avançadas de criptografia. Nessa área da segurança da informação, a criptografia assimétrica desempenha um papel essencial ao permitir a comunicação segura entre partes, garantindo a confidencialidade, a integridade e a autenticidade dos dados transmitidos. Durante essa aula, exploraremos os conceitos de chaves públicas e privadas, algoritmos de criptografia assimétrica e assinaturas digitais. Compreender esses conceitos é essencial para implementar soluções de segurança robustas e proteger informações sensíveis contra ameaças.
+
+* Durante a aula, iremos explorar as características únicas da criptografia assimétrica, que utiliza um par de chaves distintas para criptografar e descriptografar dados. Essa abordagem oferece uma camada adicional de segurança ao permitir a distribuição da chave pública para qualquer pessoa, enquanto mantém a chave privada em posse exclusiva do proprietário. Através da criptografia assimétrica, as partes podem se comunicar de forma segura sem compartilhar a chave secreta, garantindo a confidencialidade dos dados transmitidos.

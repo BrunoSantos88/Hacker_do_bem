@@ -1,0 +1,15 @@
+# Lidando com incidentes
+Processo de Resposta a Incidentes
+O Processo de Resposta a Incidentes é uma abordagem estruturada para lidar com incidentes de segurança cibernética de maneira eficaz. Ele é composto por uma série de etapas interconectadas que visam identificar, conter, mitigar e aprender com incidentes, a fim de minimizar danos e melhorar a postura de segurança de uma organização. Veja cada etapa detalhadamente:
+
+Preparação: Envolve a criação de um plano de resposta a incidentes sólido antes que os incidentes ocorram. Isso inclui a definição de papéis e responsabilidades da equipe de resposta a incidentes, a identificação de ativos críticos, a definição de protocolos de comunicação interna e externa e a implementação de ferramentas e processos de monitoramento de segurança. Durante essa fase, é crucial realizar treinamentos regulares e exercícios de simulação para garantir que a equipe esteja pronta para agir de maneira coordenada quando um incidente ocorrer.
+
+Identificação: Envolve a detecção de atividades suspeitas que podem indicar a ocorrência de um incidente de segurança. Isso pode incluir a análise de logs de eventos, tráfego de rede incomum, comportamentos anômalos de usuários e outras indicações de comprometimento. A rápida identificação é fundamental para conter o incidente o mais cedo possível e evitar que ele se espalhe ou cause mais danos.
+
+Contenção: Após identificar um incidente, a etapa de Contenção visa limitar sua propagação e minimizar seu impacto. Envolve a desconexão de sistemas comprometidos da rede, o isolamento de contas de usuário comprometidas e a implementação de medidas temporárias para evitar que o incidente se espalhe para outras partes da infraestrutura.
+
+Erradicação: Uma vez que o incidente está contido, a etapa de Erradicação envolve a remoção completa do sistema comprometido ou da ameaça. Inclui a remoção de malware, a atualização de sistemas vulneráveis e a implementação de patches de segurança. O objetivo é eliminar qualquer vestígio da ameaça para evitar futuras explorações.
+
+Recuperação: Após erradicar a ameaça, a organização entra na etapa de Recuperação. Nesse estágio, os sistemas afetados são restaurados à operação normal. Envolve a restauração de backups confiáveis, a verificação de integridade de dados e a validação de que os sistemas estão funcionando corretamente e de forma segura.
+
+Lições Aprendidas: A etapa final do processo de resposta a incidentes é a extração de Lições Aprendidas. Nesse estágio, a equipe de resposta a incidentes revisa o incidente para entender o que aconteceu, como foi tratado e o que pode ser feito para evitar incidentes semelhantes no futuro. Envolve uma análise detalhada das ações tomadas, das vulnerabilidades exploradas e das falhas no processo. As lições aprendidas são usadas para melhorar continuamente os processos de segurança, aprimorar a postura de defesa e fortalecer a resiliência cibernética da organização.

@@ -1,0 +1,10 @@
+# Aquisição de memória
+Permite a obtenção de informações voláteis que podem ser cruciais para investigações. Existem várias abordagens para a coleta de dados de memória do sistema, cada uma com suas próprias características e vantagens:
+
+Live Acquisition (Aquisição em Tempo Real): Envolve a coleta de dados diretamente da memória RAM de um sistema em funcionamento, sem desligá-lo. Permite a captura de informações atuais, como processos em execução, conexões de rede e dados temporários. É particularmente útil em casos de incidentes em andamento, onde a captura de informações em tempo real é essencial. O processo de aquisição ao vivo deve ser cuidadosamente realizado para minimizar o impacto na memória e garantir a preservação da integridade dos dados.
+
+Arquivo de Despejo de Falha (Crash Dump): Quando ocorre uma falha no sistema (crash), um arquivo de despejo de falha é gerado. Esse arquivo contém uma captura do estado da memória e do sistema no momento da falha. O arquivo de despejo de falha é útil para análise pós-falha, permitindo aos investigadores entender o que aconteceu no sistema imediatamente antes da falha.
+
+Arquivo de Hibernação (Hibernation File): Quando um sistema entra no modo de hibernação, os dados da memória são salvos em um arquivo de hibernação no disco rígido. Isso permite que o sistema seja retomado a partir do estado anterior quando sair do modo de hibernação. O arquivo de hibernação pode ser coletado e analisado para obter informações sobre o estado do sistema antes de entrar no modo de hibernação.
+
+Arquivo de Paginação (Pagefile): O arquivo de paginação (também conhecido como arquivo de troca) é usado pelo sistema operacional para gerenciar a memória virtual. Ele contém partes da memória que foram temporariamente transferidas para o disco rígido. O arquivo de paginação pode conter informações valiosas sobre processos em execução e atividades do sistema, mesmo após a reinicialização do sistema.

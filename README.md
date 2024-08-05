@@ -1,6 +1,22 @@
-# Estudo de Caso
+# Objetivos
 
-A formação oferecida pelo Hackers do Bem é completamente gratuita. O processo de inscrição é simples: após preencher seus dados, você receberá um e-mail de confirmação de matrícula. Assim, você terá acesso ao primeiro curso da trilha, chamado de "Nivelamento". Ao concluir esse curso, estará preparado para avançar para o próximo nível, o curso "Básico", que também conta com aulas gravadas. 
+- Ao final desta aula, os leitores devem estar confortáveis com os conceitos de SDLC, dos diferentes modelos e as suas fases.
 
-Oferecemos cursos mais avançados, como o "Fundamental" e a "Especialização", que incluem aulas ao vivo e atividades práticas em laboratório. Essas oportunidades serão abertas ao longo do programa, que se estende até o ano de 2025. Fique atento aos alertas que receberá para se inscrever nas turmas desses cursos, pois as vagas serão limitadas.  
+1. Compreender como se desenvolve o ciclo de desenvolvimento de software
+
+2. Conhecer os diferentes modelos de SDLC
+
+3. Aprender como são as diferentes fases do SDLC
+
+4. Conhecer os papéis e responsabilidadedes envolvidas no SDLC
+
+* Conceitos
+
+1. Fundamentos do ciclo de vida de desenvolvimento de software
+
+2. Princípios presentes nos diferentes modelos de SDLC
+
+3. Elementos que definem as fases do SDLC
+
+4. Funções e responsabilidades presentes em cada papel do SDLC
 

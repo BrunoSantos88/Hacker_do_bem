@@ -1,0 +1,5 @@
+# Extreme Programming (XP)
+
+- O Extreme Programming, ou XP, é uma abordagem ágil de desenvolvimento de software que coloca a colaboração e a adaptação como pontos-chave. É como uma festa divertida para o desenvolvimento de software! No XP, o trabalho em equipe é fundamental, com interações frequentes e comunicação aberta. Os desenvolvedores trabalham em pares, compartilhando conhecimento e revisando o código uns dos outros. Além disso, o XP valoriza a simplicidade, focando em entregar software funcional de forma rápida, em pequenas iterações chamadas de "sprints". É como jogar videogame e desbloquear níveis a cada sprint!
+
+- Outro aspecto importante do Extreme Programming é o foco em testes. Os testes são escritos antes mesmo do código, garantindo que o software funcione corretamente. É como ter um playground de testes para garantir que tudo esteja funcionando como deveria. Além disso, o XP incentiva a integração contínua, com builds automatizados e feedback rápido para os desenvolvedores. O Extreme Programming nos convida a sermos colaborativos, ágeis e a colocar a diversão no desenvolvimento de software!

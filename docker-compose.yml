@@ -1,0 +1,19 @@
+version: '3'
+services:
+
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./prometheus.yml:/builds/root/task-manager/prometheus/prometheus.yml
+      - ./rules.yml:/builds/root/task-manager/prometheus/rules.yml
+    command:
+      - "--config.file=/builds/root/task-manager/prometheus/prometheus.yml"
+    ports:
+      - "9090:9090"
+
+  alertmanager:
+    image: prom/alertmanager
+    volumes:
+      - ./alertmanager.yml:/builds/root/task-manager/alertmanager/alertmanager.yml
+    ports:
+      - '9093:9093'

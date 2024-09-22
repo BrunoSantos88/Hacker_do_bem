@@ -1,5 +1,0 @@
-# Dynamic Systems Development Method (DSDM)
-
-- O DSDM é um método ágil de desenvolvimento de sistemas que coloca o foco na entrega rápida e na participação ativa do cliente. É como ter um amigo bem próximo no desenvolvimento de software! No DSDM, o trabalho em equipe é essencial, com uma forte colaboração entre os desenvolvedores e os usuários finais. O método enfatiza a entrega incremental e iterativa, ou seja, em cada etapa do projeto, são entregues partes funcionais do software. É como montar um quebra-cabeças e ir encaixando as peças aos poucos!
-
-- Outro aspecto interessante do DSDM é o seu enfoque na viabilidade do projeto. Ele busca equilibrar os requisitos de negócio com as restrições de tempo, custo e qualidade. O DSDM incentiva a tomada de decisões rápidas e o ajuste de prioridades para garantir a entrega de valor ao cliente. Além disso, o método valoriza a comunicação aberta e transparente, permitindo que os usuários finais estejam envolvidos desde o início do processo. O DSDM nos convida a trabalhar de forma dinâmica, interativa e a construir uma relação próxima com os clientes durante o desenvolvimento do software!

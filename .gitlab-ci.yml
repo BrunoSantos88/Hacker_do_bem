@@ -1,0 +1,144 @@
+variables:
+  DOCKER_TLS_CERTDIR: "/certs"
+  DOCKER_CLIENT_TIMEOUT: 600
+  COMPOSE_HTTP_TIMEOUT: 600
+  DOCKER_BUILDKIT: 0
+  COMPOSE_DOCKER_CLI_BUILD: 0
+  DOCKER_IMAGE: "docker:20.10"
+  PYTHON_IMAGE: "python:3.9-slim-buster"
+  TERRAFORM_IMAGE: "djerfy/gitlab-ci-terraform:1.1.9"
+  DEPENDENCY_CHECK: "nbaars/owasp-dependency-check-as-one"
+  MAVEN_IMAGE: "maven:3.8.5-openjdk-17-slim"
+
+stages:
+  - sast
+  - review-deploy-dast
+  - review-stop
+  - metrics-alert
+  - deploy-app_dashbord
+
+# Run Python Tests (Static Analysis)
+analyze_static:
+  stage: sast
+  image: ${PYTHON_IMAGE}
+  script:
+    - pip install --upgrade pip
+    - pip install pytest
+    - pytest || true
+
+# Run Bandit (Code Security Analysis)
+bandit_scan:
+  stage: sast
+  image: ${PYTHON_IMAGE}
+  script:
+    - pip install bandit
+    - bandit -r . -f html -o bandit-report.html || true
+  artifacts:
+    paths:
+      - bandit-report.html
+    expire_in: 1 week
+
+# SonarQube Code Analysis
+code_analysis:
+  stage: sast
+  image: sonarsource/sonar-scanner-cli:latest
+  script:
+    - sonar-scanner -Dsonar.projectKey=taskmanager -Dsonar.sources=. -Dsonar.host.url=http://192.168.98.2:9000 -Dsonar.login=sqp_90a829cb7fda3ba923b1482f7978e132c5e3717e
+
+# Dependency Check (SAST)
+dependency_check:
+  stage: sast
+  image: ${DEPENDENCY_CHECK}
+  script:
+    - mkdir -p report
+    - dependency-check --project "taskmanager" --format "HTML" --out report --scan .
+  artifacts:
+    when: always
+    paths:
+      - report/dependency-check-report.html
+    expire_in: 1 week
+
+# Review Job
+review_deploy:
+  stage: review-deploy-dast
+  image: ${DOCKER_IMAGE}
+  services:
+    - docker:dind
+  script:
+    - docker rmi taskmanager --force || true
+    - docker stop taskmanager || true
+    - docker build -t taskmanager .
+    - docker run -d -p 8080:5000 --name taskmanager taskmanager
+
+# DAST Job
+run_dast_review_deploy:
+  stage: review-deploy-dast
+  image: ${MAVEN_IMAGE}
+  script:
+    - apt-get update
+    - apt-get -y install wget
+    - wget https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Linux.tar.gz
+    - mkdir zap
+    - tar -xvf ZAP_2.14.0_Linux.tar.gz -C zap
+    - cd zap/ZAP_2.14.0
+    - ./zap.sh -cmd -quickurl http://192.168.98.2:8080 -quickprogress -quickout ../../zap_report.html
+    - echo "Checking for critical vulnerabilities..."
+    - ./zap.sh -cmd -quickurl http://192.168.98.2:8080 -quickprogress -quickout ../../zap_critical_report.html -config api.disablekey=true -config scan.policy=Default -config ruleset=Critical
+  artifacts:
+    paths:
+      - zap_report.html
+      - zap_critical_report.html
+    expire_in: 1 week
+
+# Review Stop Job
+review_stop:
+  stage: review-stop
+  image: ${DOCKER_IMAGE}
+  services:
+    - docker:dind
+  script:
+    - docker stop taskmanager || true
+    - docker rm taskmanager || true
+    - docker rmi taskmanager || true
+
+# Metrics Dashboard Job
+metrics_dashboard:
+  stage: metrics-alert
+  image: ${DOCKER_IMAGE}
+  services:
+    - docker:dind
+  script:
+    - docker-compose build
+    - docker-compose up -d
+    - docker-compose ls
+  only:
+    - master
+
+# Terraform Init
+terraform_init:
+  stage: deploy-app_dashbord
+  image: ${TERRAFORM_IMAGE}
+  script:
+    - terraform init  
+    - terraform fmt
+    - terraform validate
+  only:
+    - master
+
+# Terraform Plan
+terraform_plan:
+  stage: deploy-app_dashbord
+  image: ${TERRAFORM_IMAGE}
+  script:
+    - terraform plan
+  only:
+    - master
+
+# Apply Terraform Plan
+terraform_apply:
+  stage: deploy-app_dashbord
+  image: ${TERRAFORM_IMAGE}
+  script:
+    - terraform apply --auto-approve
+  only:
+    - master

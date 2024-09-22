@@ -1,5 +1,0 @@
-# Lean Software Development
-
-- O Lean Software Development é uma abordagem que busca eliminar desperdícios e maximizar o valor para o cliente no desenvolvimento de software. É como uma academia para os projetos de software! Ele se baseia nos princípios do Lean Manufacturing, adaptados para a área de desenvolvimento de software.
-
-- No Lean Software Development, o foco está em entregar valor de forma rápida e eficiente. É como se estivéssemos em uma dieta saudável para o desenvolvimento! O objetivo é reduzir o tempo entre o desenvolvimento e a entrega do produto, eliminando atividades desnecessárias e otimizando o fluxo de trabalho. Isso é alcançado através da colaboração entre as equipes, da priorização das atividades mais importantes e da busca constante por melhorias. O Lean Software Development nos ajuda a "malhar" nossos projetos, eliminando gorduras e entregando produtos de maior valor para o cliente!

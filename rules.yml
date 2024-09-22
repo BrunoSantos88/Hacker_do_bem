@@ -1,0 +1,29 @@
+groups:
+ - name: Monitoring Alerts
+   rules:
+   - alert: BruteForceAttackDetected
+     expr: rate(flask_http_request_total[5m]) > 10
+     for: 5m
+     labels:
+       severity: warning
+     annotations:
+       summary: "Potential Brute Force Attack Detected"
+       description: "More than 10 HTTP requests per second detected for the Flask application."
+
+   - alert: ServiceDown
+     expr: up{instance="192.168.98.2:8080", job="taskmanager"} == 0
+     for: 5s
+     labels:
+       severity: critical
+     annotations:
+       summary: "Service is Down"
+       description: "The Python server on 192.168.98.2:8080 is not responding."
+
+   - alert: FlaskHttpRequestsTooHigh
+     expr: rate(flask_http_request_total{instance="192.168.98.2:8080", job="taskmanager", method="GET", status="200"}[5m]) > 100
+     for: 5m
+     labels:
+       severity: warning
+     annotations:
+       summary: "High HTTP Request Count"
+       description: "The Flask application has received more than 100 successful GET requests in the last 5 minutes."
